@@ -5,8 +5,7 @@ ctfp is a small, header-only C++ library that allows you to build signatures at 
 ### Example Usage
 
 ```cpp
-#include <ctfp.hpp>
-#include <vector>
+#include <ctfp/ctfp.h>
 
 int main() {
     const auto result = ctfp::find<"aabbccdd?">(haystack);
